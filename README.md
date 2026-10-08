@@ -5,10 +5,6 @@
 
 Este repositório contém o código-fonte de uma aplicação web conceitual focada em design, arquitetura de software front-end e estruturação de interfaces. O projeto foi desenvolvido com objetivos acadêmicos, servindo como uma **Prova de Conceito (PoC)** e ambiente controlado para o aprendizado prático de organização de estilos via **CSS Externo**, modularização de arquivos e boas práticas de desenvolvimento web.
 
-[![HTML5](https://shields.io)](https://mozilla.org)
-[![CSS3](https://shields.io)](https://mozilla.org)
-[![Vercel](https://shields.io)](https://vercel.com)
-
 </div>
 
 ---
@@ -59,7 +55,7 @@ A organização do repositório foi planejada para simular o ecossistema de um s
 
 O projeto está publicado e pode ser visualizado em tempo real pelo link abaixo:
 
-🚀 **Acesse o protótipo online:** [Clique aqui para visualizar o site](https://css-externo-webdesign.vercel.app/)
+🚀 **Acesse o protótipo online:** [Clique aqui para visualizar o site](https://responsive-flexbox-layout-webdesign.vercel.app/)
 
 ---
 
