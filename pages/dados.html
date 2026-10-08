@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolar Dados - Aventura Digital</title>
+    <link rel="stylesheet" href="../stylesheets/dados.css">
+    <link rel="stylesheet" href="../stylesheets/components.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo">
+            <span class="logo-img"> <img src="../Img_folder/d20-certo-sem-fundo.png" alt="imagem de d20"></span>
+            <span class="logo-texto">Criador de Ficha RPG</span>
+        </div>
+        <div class="cta-buttons">
+            <a href="../index.html" class="btn">Página Principal</a>
+            <a href="criarFichas.html" class="btn btn-primary">Criar Ficha</a>
+            <a href="minhasFichas.html" class="btn btn-secondary">Minhas Fichas</a>
+            <a href="bibliotecaFichas.html" class="btn btn-secondary">Biblioteca Fichas</a>
+            <a href="dados.html" class="btn btn-terciary">Rolar Dados</a>
+        </div>
+    </header>
+
+
+    <!-- CONTAINER DA DASHBOARD -->
+    <div class="dashboard-container">
+        <main class="main-content">
+            
+            <!-- PAINEL DE CONFIGURAÇÃO (BASEADO NO TOPO DA SUA IMAGEM) -->
+            <section class="dice-config-panel">
+                <div class="config-group">
+                    <label for="dice-count">Número de dados</label>
+                    <select id="dice-count">
+                        <option value="6" selected>6 dados</option>
+                        <option value="1">1 dado</option>
+                        <option value="2">2 dados</option>
+                        <option value="3">3 dados</option>
+                        <option value="4">4 dados</option>
+                        <option value="5">5 dados</option>
+                    </select>
+                </div>
+
+                <div class="config-group">
+                    <label for="dice-sides">Número de lados</label>
+                    <select id="dice-sides">
+                        <option value="7" selected>7 lados</option>
+                        <option value="4">d4</option>
+                        <option value="6">d6</option>
+                        <option value="8">d8</option>
+                        <option value="10">d10</option>
+                        <option value="12">d12</option>
+                        <option value="20">d20</option>
+                    </select>
+                </div>
+            </section>
+
+            <!-- ÁREA DE EXIBIÇÃO DOS DADOS (GRID MOCKUP) -->
+            <section class="dice-display-area">
+                <div class="dice-grid">
+                    
+                    <!-- Dado 1 -->
+                    <div class="dice-mockup">
+                        <span class="main-value">5</span>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- SEÇÃO DE AÇÃO E RESULTADOS -->
+            <section class="dice-action-area">
+                <button type="button" class="btn-roll">Lançar</button>
+                <div class="total-display">
+                    Total : <span class="total-value">5</span>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer class="rodape">
+        <div class="texto">
+            <p>&copy; 2026 . Todos os direitos reservados.</p>
+        </div>
+
+        <div class="links-rodape">
+            <a href="#">Ajuda & Suporte</a>
+            <a href="#">Termos de Uso</a>
+            <a href="#">Política de Privacidade</a>
+        </div>
+    </footer>
+</body>
+</html>

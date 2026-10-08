@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Fichas</title>
+    <link rel="stylesheet" href="../stylesheets/minhasFichas.css">
+    <link rel="stylesheet" href="../stylesheets/components.css">
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGAÇÃO SUPERIOR -->
+    <header class="site-header">
+        <div class="logo">
+            <span class="logo-img"> <img src="../Img_folder/d20-certo-sem-fundo.png" alt="imagem de d20"></span>
+            <span class="logo-texto">Criador de Ficha RPG</span>
+        </div>
+        <div class="cta-buttons">
+            <a href="../index.html" class="btn">Página Principal</a>
+            <a href="criarFichas.html" class="btn btn-primary">Criar Ficha</a>
+            <a href="minhasFichas.html" class="btn btn-secondary">Minhas Fichas</a>
+            <a href="bibliotecaFichas.html" class="btn btn-secondary">Biblioteca Fichas</a>
+            <a href="dados.html" class="btn btn-terciary">Rolar Dados</a>
+        </div>
+    </header>
+
+    <!-- CONTAINER DA DASHBOARD -->
+    <div class="dashboard-container">
+        <main class="main-content">
+            
+            <header class="panel-header">
+                <div>
+                    <h1>Minhas Fichas</h1>
+                    <small>MINHAS FICHAS (1)</small>
+                </div>
+            </header>
+
+            <section class="filters-section">
+                <form class="filters-form" onsubmit="return false;">
+                    <input type="search" placeholder="Search">
+                    <select name="classe"><option>Classe</option></select>
+                    <select name="race"><option>Race</option></select>
+                    <select name="nivel"><option>Nivel</option></select>
+                </form>
+            </section>
+
+            <section class="characters-section">
+                <div class="cards-grid">
+                    <!-- CARD 1 -->
+                    <article class="char-card">
+                        <header class="char-card-header">
+                            <div>
+                                <h4>Eldrin Presa da Noite</h4>
+                                <div class="char-subtitle">Elf Rogue</div>
+                            </div>
+                            <span class="char-level">Nvl 6</span>
+                        </header>
+
+                        <figure class="char-avatar">
+                            <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=150" alt="Avatar Eldrin">
+                            <figcaption>Elf Rogue</figcaption>
+                        </figure>
+
+                        <table class="stats-table">
+                            <thead>
+                                <tr>
+                                    <th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>10</td><td>18</td><td>14</td><td>16</td><td>12</td><td>10</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <ul class="equip-list">
+                            <li>🗡️ Punhal</li>
+                            <li>🏹 Arco</li>
+                        </ul>
+
+                        <footer class="char-card-footer">
+                            <div class="update-time">
+                                <span>Última atualização</span>
+                                <span>12/10/2023</span>
+                            </div>
+                            <ul class="action-buttons">
+                                <li><button type="button">Visualizar</button></li>
+                                <li><button type="button">Editar</button></li>
+                                <li><button type="button">Deletar</button></li>
+                                <li><button type="button">Compartilhar</button></li>
+                            </ul>
+                        </footer>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+
+        <!-- RODAPÉ GLOBAL DA PÁGINA -->
+    <footer class="rodape">
+        <div class="texto">
+            <p>&copy; 2026 . Todos os direitos reservados.</p>
+        </div>
+
+        <div class="links-rodape">
+            <a href="#">Ajuda & Suporte</a>
+            <a href="#">Termos de Uso</a>
+            <a href="#">Política de Privacidade</a>
+        </div>
+    </footer>
+</body>
+</html>
