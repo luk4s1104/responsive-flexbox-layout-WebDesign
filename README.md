@@ -1,5 +1,3 @@
-<div align="center">
-
 # 🎲 Criador de Ficha de RPG
 ### Laboratório de CSS Externo e UI/UX
 
